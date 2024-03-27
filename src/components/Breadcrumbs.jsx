@@ -1,6 +1,6 @@
 import React from "react";
 
-const BreadCrumbs = () => {
+const Breadcrumbs = () => {
   return (
     /** More breadcrumbs can be added or removed depending API data that interactivity can be added in the below code.*/
     <div className="text-sm breadcrumbs">
@@ -16,4 +16,4 @@ const BreadCrumbs = () => {
   );
 };
 
-export default BreadCrumbs;
+export default Breadcrumbs;

@@ -2,8 +2,8 @@
 
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
-import BreadCrumbs from "../components/BreadCrumbs";
-import Steps from "../components/Steps";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Steps from "@/components/Steps";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <NavBar />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div>
-          <BreadCrumbs />
+          <Breadcrumbs />
           <Steps />
         </div>
 
