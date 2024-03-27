@@ -39,13 +39,13 @@ const Form = () => {
               id="skillsAcquisition"
               type="text"
               placeholder="Decision Making"
-              className="input font-semibold font-manrope input-bordered w-[100%] h-14 px-4 placeholder-black border-gray-300"
+              className="input text-base font-medium font-manrope input-bordered w-[100%] h-14 px-4 placeholder-black border-gray-300"
             />
           </div>
           <div className="flex flex-col">
             <label
               htmlFor="proficiencyLevel"
-              className="font-semibold text-lg leading-8 mb-3 font-manrope"
+              className="text-base font-medium leading-8 mb-3 font-manrope"
             >
               Proficiency Level
             </label>
