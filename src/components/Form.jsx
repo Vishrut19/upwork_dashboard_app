@@ -74,7 +74,7 @@ const Form = () => {
             Thumbnail
           </h1>
           <Image
-            className="w-[732px] h-[240px] mask border rounded-[10px]"
+            className="w-[732px] h-[280px] mask border rounded-[10px]"
             src={thumbnailImage}
           />
         </div>
