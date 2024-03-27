@@ -7,9 +7,9 @@ const Steps = () => {
     /** This can also be seperated into small, small components and also there can be logic and interactivity added
      * but right now, its not as we will need some API data for it.
      */
-    <div className="flex flex-col md:flex-row flex-wrap items-center justify-center mt-4">
+    <div className="flex flex-col md:flex-row flex-wrap items-center justify-center mt-4 text-base">
       <div className="flex items-center">
-        <div className="inline-flex w-7 h-7 mr-4 justify-center items-center rounded-full bg-[#0068FF] text-white text-sm font-bold">
+        <div className="inline-flex w-7 h-7 mr-4 justify-center items-center rounded-full bg-[#0068FF] text-white text-sm">
           1
         </div>
         <span className="font-bold font-manrope text-[#000000]">
