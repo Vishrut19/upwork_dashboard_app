@@ -53,7 +53,7 @@ const Form = () => {
               <button
                 id="proficiencyLevel"
                 type="button"
-                className="inline-flex w-[100%] h-14 font-manrope justify-between items-center px-3 py-1 border border-gray-300 text-gray-700 bg-white text-sm font-medium rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                className="inline-flex w-[100%] text-base h-14 font-manrope justify-between items-center px-3 py-1 border border-gray-300 text-gray-700 bg-white font-medium rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                 aria-haspopup="listbox"
                 aria-expanded="true"
                 aria-labelledby="listbox-label"
