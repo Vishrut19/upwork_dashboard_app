@@ -2,14 +2,21 @@
 
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
+import BreadCrumbs from "../components/BreadCrumbs";
+import Steps from "../components/Steps";
 
 export default function Home() {
   return (
     <>
       <NavBar />
-      {/* <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <div>
+          <BreadCrumbs />
+          <Steps />
+        </div>
+
         <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex"></div>
-      </main> */}
+      </main>
       <Footer />
     </>
   );
