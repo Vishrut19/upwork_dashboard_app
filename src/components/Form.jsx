@@ -27,7 +27,7 @@ const Form = () => {
             placeholder="Learn how to generate innovative solutions in work situations. Review how to develop, design, and create new applications, ideas, relationships, systems, and products. Discover how to use creative and alternative thinking to develop new ideas for and answers to work-related problems."
           />
         </div>
-        <div className="mt-10 ml-1 grid grid-cols-1 md:grid-cols-2 gap-20">
+        <div className="mt-10 ml-1 grid grid-cols-1 md:grid-cols-2 gap-14">
           <div className="flex flex-col">
             <label
               htmlFor="skillsAcquisition"
@@ -45,7 +45,7 @@ const Form = () => {
           <div className="flex flex-col">
             <label
               htmlFor="proficiencyLevel"
-              className="text-base font-medium leading-8 mb-3 font-manrope"
+              className="text-lg font-semibold leading-8 mb-3 font-manrope"
             >
               Proficiency Level
             </label>
@@ -53,7 +53,7 @@ const Form = () => {
               <button
                 id="proficiencyLevel"
                 type="button"
-                class="inline-flex w-[100%] h-14 font-manrope justify-between items-center px-3 py-1 border border-gray-300 text-gray-700 bg-white text-sm font-medium rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                className="inline-flex w-[100%] h-14 font-manrope justify-between items-center px-3 py-1 border border-gray-300 text-gray-700 bg-white text-sm font-medium rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                 aria-haspopup="listbox"
                 aria-expanded="true"
                 aria-labelledby="listbox-label"
