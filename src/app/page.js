@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <NavBar />
       <main className="flex min-h-screen flex-col items-center justify-between p-8">
-        <div className="-ml-[140px] -mt-[25px]">
+        <div className="lg:-ml-[200px] -mt-[25px] sm:-ml-[170px]">
           <Breadcrumbs />
           <Steps />
         </div>
