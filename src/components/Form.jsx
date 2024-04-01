@@ -8,7 +8,7 @@ const Form = () => {
     /**This form can be either broken down into many components or all the data can be populated from fetching data from API
      * and also form data can be submitted to api using CRUD Operation.
      */
-    <div className="flex ml-[72px] w-full">
+    <div className="flex ml-5 sm:ml-10 md:ml-[72px] lg:ml-[72px] w-full">
       <form>
         <h1 className="font-manrope font-semibold text-lg leading-8">
           Learning Path Name
@@ -16,7 +16,7 @@ const Form = () => {
         <input
           type="text"
           placeholder="Develop Your Creative Thinking and Innovation Skills"
-          className="mt-3 input input-bordered w-[100%] placeholder-black font-manrope border-[#DBDBDB]"
+          className="mt-3 input input-bordered w-[100%] sm:w-[80%] md:w-[80%] lg:w-[100%] placeholder-black font-manrope border-[#DBDBDB]"
         />
         <div className="mt-10">
           <h1 className="font-manrope font-semibold text-lg leading-8">

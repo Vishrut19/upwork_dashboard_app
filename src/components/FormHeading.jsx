@@ -2,7 +2,7 @@ import React from "react";
 
 const FormHeading = () => {
   return (
-    <div className="flex flex-col ml-[72px]">
+    <div className=" flex flex-col ml-5 sm:ml-10 md:ml-[72px] lg:ml-[72px]">
       <h1 className="font-manrope font-bold text-2xl mt-[30px]">
         Learning Path Overview
       </h1>
